@@ -2,6 +2,7 @@ from drf_yasg.inspectors import SwaggerAutoSchema
 
 # custom tag schema for swagger models
 
+
 class CustomAutoSchema(SwaggerAutoSchema):
 
     def get_tags(self, operation_keys=None):

@@ -1,6 +1,8 @@
 from rest_framework import permissions
 
 # if request user is author, can update or delete object
+
+
 class IsAuthorUpdate(permissions.BasePermission):
 
     def has_permission(self, request, view):
